@@ -20,7 +20,7 @@ You can backup all of your entries with low-resolution photos and thumbnails, in
 4) Goto Blipfoto and register an API key
 https://www.polaroidblipfoto.com/developer/apps/create
 
-5) Edit export.php and add your newly created client ID and secret from Blipfoto, and username:
+5) Edit export.php with your favourite text / code editor and add your newly created client ID and secret from Blipfoto, and username:
 
 ```
 $backup = new Backup('Your Client ID Here','Your Client Secret Here');
@@ -38,6 +38,10 @@ If using Linux, install git php5-cli curl & php5-curl first.
 For example, with Ubuntu:
 
 `sudo apt-get -y install git php5-cli curl php5-curl`
+
+With OS X, you'll need to install either "Command lLine Tools" from Apple's developer website.
+Alternatively install Git from http://git-scm.com/download/mac
+Or with Homebrew.
 
 Hi-res photos not available (restriction in the API, there's nothing I can do about that).
 Pulling photos, even your own might break Blipfoto's terms of use. I take no responsibility for the use of this tool, use at your own caution.
