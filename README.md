@@ -39,7 +39,7 @@ For example, with Ubuntu:
 
 `sudo apt-get -y install git php5-cli curl php5-curl`
 
-With OS X, you'll need to install either "Command lLine Tools" from Apple's developer website.
+With OS X, you'll need to install either "Command Line Tools" from Apple's developer website.
 Alternatively install Git from http://git-scm.com/download/mac
 Or with Homebrew.
 
