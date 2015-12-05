@@ -20,7 +20,7 @@ You can backup all of your entries with low-resolution photos and thumbnails, in
 4) Goto Blipfoto and register an API key
 https://www.polaroidblipfoto.com/developer/apps/create
 
-5) Edit export.php with your favourite text / code editor and add your newly created client ID and secret from Blipfoto, and username:
+5) Edit export.php with your favourite text / code editor and add your newly created client ID and secret from Blipfoto, and username. *At the bottom of the file, there is a placeholder for those details. Don't change anything else.*
 
 ```
 $backup = new Backup('Your Client ID Here','Your Client Secret Here');
