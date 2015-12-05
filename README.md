@@ -24,7 +24,7 @@ https://www.polaroidblipfoto.com/developer/apps/create
 
 ```
 $backup = new Backup('Your Client ID Here','Your Client Secret Here');
-$backup->run('Your Username Here');
+$backup->run('Your Username (Not Email) Here');
 ```
 
 6) Run
