@@ -33,6 +33,12 @@ $backup->run('Your Username Here');
 
 
 ## Gotchas
+
+If using Linux, install git php5-cli curl & php5-curl first.
+For example, with Ubuntu:
+
+`sudo apt-get -y install git php5-cli curl php5-curl`
+
 Hi-res photos not available (restriction in the API, there's nothing I can do about that).
 Pulling photos, even your own might break Blipfoto's terms of use. I take no responsibility for the use of this tool, use at your own caution.
 Only one photo of each entry is pulled. Additional photos are ignored.
