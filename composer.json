@@ -1,0 +1,5 @@
+{
+    "require": {
+        "blipfoto/blipfoto": "dev-master"
+    }
+}
